@@ -21,11 +21,13 @@ void main() {
 	{
 	case 1:
 		add();
-		
+		break;
 	case 2:
 		subtract();
-		
-
+		break;
+	default:
+		printf("Invalid input!\n\n");
+		break;
 	}
 
 }
